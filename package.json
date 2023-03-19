@@ -1,0 +1,22 @@
+{
+  "name": "intermediate-module-1",
+  "version": "1.0.0",
+  "description": "Exercises Module 1",
+  "main": "index.js",
+  "scripts": {
+    "start:scope": "web-dev-server -c web-dev-server-config.mjs --open /scope/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MentorupTech/intermediate-module-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MentorupTech/intermediate-module-1/issues"
+  },
+  "homepage": "https://github.com/MentorupTech/intermediate-module-1#readme",
+  "devDependencies": {
+    "@web/dev-server": "^0.1.36"
+  }
+}
