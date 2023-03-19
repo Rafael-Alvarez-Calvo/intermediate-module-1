@@ -18,5 +18,13 @@
   "homepage": "https://github.com/MentorupTech/intermediate-module-1#readme",
   "devDependencies": {
     "@web/dev-server": "^0.1.36"
+  },
+  "dependencies": {
+    "husky": "^8.0.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "echo 'daniel'"
+    }
   }
 }
