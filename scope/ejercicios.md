@@ -18,7 +18,12 @@ Dado el siguiente código:
 ```
 
 ¿Cuál será la salida al ejecutar este código? ¿Por qué?
+Output: "¡Hola, mundo!" "¡Hola, function scope!" "¡Hola, mundo!", 
+
 Ahora, intenta quitar la declaración var de la variable mensaje en la función saludo() y ejecútalo nuevamente. ¿Cómo cambia el resultado?
+Output: "¡Hola, mundo!" "¡Hola, function scope!" "¡Hola, mundo!", 
+
+lAS DOS FORMAS DAN EL MISMO OUTPUT PORQUE EN ESTE CASO NO CAMBIA EL SCOPE
 
 
 ## Ejercicio 2: Closures
