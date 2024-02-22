@@ -1,6 +1,6 @@
 /**
  * Example 1
- * Podemos evitar hacer un push utilizando el operador sprint para combinar dos arrays
+ * Podemos evitar hacer un push utilizando el operador spread para combinar dos arrays
  */
 
 /*
@@ -18,7 +18,7 @@ console.log(total);
 
 /**
  * Example 2
- * Podemos utilizar el operador sprint para combinar objetos
+ * Podemos utilizar el operador spread para combinar objetos
  *
  */
 /*
@@ -67,10 +67,6 @@ let myDay = new Date(...paramsConstructor);
 console.log(myDay);
  */
 
-/**
- * Ojo!! con utilizar
- *
- */
-let a = [1,2,3,[4,5]];
-let b = [...a];
-a[3].push(6);
+
+
+// RESUELVE EJERCICIOS
