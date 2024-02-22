@@ -4,7 +4,8 @@
   "description": "Exercises Module 1",
   "main": "index.js",
   "scripts": {
-    "start:scope": "web-dev-server -c web-dev-server-config.mjs --open /scope/"
+    "start:scope": "web-dev-server -c web-dev-server-config.mjs --open /scope/",
+    "start:spread": "web-dev-server -c web-dev-server-config.mjs --open /spread-operator/"
   },
   "repository": {
     "type": "git",
